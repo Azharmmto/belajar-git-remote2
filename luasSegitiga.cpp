@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-float luasSeggitiga(float alas, float tinggi);
+float luasSegitiga(float alas, float tinggi);
 
 int main(){
 
@@ -19,4 +19,9 @@ int main(){
   cin >> tinggi;  
 
   return 0;
+}
+
+float luasSegitiga(float alas, float tinggi){
+  float luas = 0.5 * (alas * tinggi);
+  return luas;
 }
