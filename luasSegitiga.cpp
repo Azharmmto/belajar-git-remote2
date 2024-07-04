@@ -18,6 +18,9 @@ int main(){
   cout << "Masukkan tinggi segitiga (cm): ";
   cin >> tinggi;  
 
+  // panggil fungsi luas segitiga dan tampilkan hasil
+  cout << "Luas segitiga = " << luasSegitiga(alas, tinggi) << "cm" << endl; 
+
   return 0;
 }
 
