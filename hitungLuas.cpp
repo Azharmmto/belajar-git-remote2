@@ -18,7 +18,7 @@ int main(){
 
   std::cout << "================================================================" << std::endl;
 
-  std::cout << "Luas persegi panjang dengan lebar " << lebar <<" dan panjang " << panjang << " adalah " << hasil << std::endl;
+  std::cout << "Luas persegi panjang dengan lebar " << lebar << "mm " <<"dan panjang " << panjang << "mm" << " adalah " << hasil << "mm" << std::endl;
 
   std::cout << "================================================================" << std::endl;
 }
