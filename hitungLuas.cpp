@@ -1,8 +1,6 @@
 #include <iostream>
 
-int luas(int panjang, int lebar){
-  return panjang * lebar;
-}
+int luas(int panjang, int lebar);
 
 int main(){
 
@@ -21,4 +19,8 @@ int main(){
   std::cout << "Luas persegi panjang dengan lebar " << lebar << "mm " <<"dan panjang " << panjang << "mm" << " adalah " << hasil << "mm" << std::endl;
 
   std::cout << "================================================================" << std::endl;
+}
+
+int luas(int panjang, int lebar){
+  return panjang * lebar;
 }
